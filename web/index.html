@@ -1,5 +1,12 @@
 <!doctype html>
 <html lang="en">
+  <script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js");
+  });
+}
+</script>
 <head>
   <link rel="manifest" href="manifest.webmanifest">
 <meta charset="utf-8">
