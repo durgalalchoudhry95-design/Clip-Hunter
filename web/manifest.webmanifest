@@ -1,0 +1,11 @@
+{
+  "name": "Clip-Hunter AI",
+  "short_name": "ClipHunter",
+  "description": "AI-powered automatic video clipping",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101014",
+  "theme_color": "#101014"
+}
